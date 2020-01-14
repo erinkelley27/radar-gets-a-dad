@@ -7,7 +7,10 @@ const Registry = () => {
     return (
         <div className="Registry">
             <div className="registry">
-                <a target="_blank" href="https://www.zola.com/registry/erinandjustin2020/"><img className="zola-image" src={zola} alt="zola" /></a>
+                <a target="_blank" href="https://www.zola.com/registry/erinandjustin2020/">
+                    <h3>Erin & Justin's Wedding Registry</h3>
+                    <img className="zola-image" src={zola} alt="zola" />
+                </a>
                 {/* <div className="event-info">
                     <a className="location-name" target="_blank" href="https://www.pammyscambridge.com/">
                     <h2>Ceremony & Reception</h2>
