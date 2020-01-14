@@ -1,0 +1,23 @@
+.Registry {
+    /* border: solid black 2px; */
+    margin: 50px auto 100px auto;
+}
+
+.registry {
+    /* border: solid blue 2px; */
+    width: 70%;
+    margin: 50px auto;
+}
+
+.zola-image {
+    /* border: solid red 2px; */
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+@media screen and (min-width: 1025px) {
+    .Registry {
+        margin: 100px auto 100px auto;
+    }
+}

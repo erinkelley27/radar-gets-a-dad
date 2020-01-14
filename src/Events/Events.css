@@ -1,0 +1,65 @@
+.Events {
+    margin: 50px auto 100px auto;
+}
+
+h4, p {
+    margin: 5px
+}
+ 
+.ceremony-location {
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ceremony-location-image {
+    width: 50%;
+}
+
+.ceremony-event-info {
+    width: 50%;
+    text-align: center;
+    padding: 20% 0px 0px 0px;
+}
+
+.reception-location {
+    width: 70%;
+    margin: 50px auto;
+}
+
+.reception-location-image {
+    width: 100%;
+}
+
+.reception-event-info {
+    text-align: center;
+}
+
+.location-name:hover, .location-address:hover {
+    color: #889bae;
+}
+
+@media screen and (min-width: 1025px) {
+    .Events {
+        margin: 100px auto 100px auto;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .ceremony-location {
+        width: 70%;
+        margin: 50px auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .ceremony-location-image {
+        width: 100%;
+    }
+    .ceremony-event-info {
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+    }
+}

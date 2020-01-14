@@ -1,0 +1,28 @@
+.mainphoto {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.mainimage {
+    width: 100%;
+}
+
+.addlphotos {
+    width: 85%;
+    margin: 25px auto 100px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.addlimage {
+    height: 200px;
+    margin: 18px;
+}
+
+@media screen and (min-width: 1025px) {
+    .mainphoto {
+        margin: 100px auto 50px auto;
+    }
+}
