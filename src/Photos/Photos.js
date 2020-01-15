@@ -3,11 +3,13 @@ import './Photos.css';
 
 import main from "../assets/main.jpg"
 
+import alexandria from "../assets/alexandria.jpg"
 import barp from "../assets/barp.jpg"
 import bucketlist from "../assets/bucketlist.jpg"
 import dancing from "../assets/dancing.jpg"
 import datenight from "../assets/datenight.jpg"
 import ethanswedding from "../assets/ethanswedding.jpg"
+import first from "../assets/first.jpg"
 import jenswedding from "../assets/jenswedding.jpg"
 import kyleswedding from "../assets/kyleswedding.jpg"
 import lincoln from "../assets/lincoln.jpg"
@@ -25,6 +27,7 @@ import thestation from "../assets/thestation.jpg"
 import towel from "../assets/towel.jpg"
 import voting from "../assets/voting.jpg"
 import westerndesert from "../assets/westerndesert.jpg"
+import winerydate from "../assets/winerydate.jpg"
 
 const Photos = () => {
     return (
@@ -33,11 +36,13 @@ const Photos = () => {
                 <img className="mainimage" src={main} alt="main" />
             </div>
             <div className="addlphotos">
+                <img className="addlimage" src={alexandria} alt="squareimage" />
                 <img className="addlimage" src={barp} alt="squareimage" />
                 <img className="addlimage" src={bucketlist} alt="squareimage" />
                 <img className="addlimage" src={dancing} alt="squareimage" />
                 <img className="addlimage" src={datenight} alt="squareimage" />
                 <img className="addlimage" src={ethanswedding} alt="squareimage" />
+                <img className="addlimage" src={first} alt="squareimage" />
                 <img className="addlimage" src={jenswedding} alt="squareimage" />
                 <img className="addlimage" src={kyleswedding} alt="squareimage" />
                 <img className="addlimage" src={lincoln} alt="squareimage" />
@@ -55,6 +60,7 @@ const Photos = () => {
                 <img className="addlimage" src={towel} alt="squareimage" />
                 <img className="addlimage" src={voting} alt="squareimage" />
                 <img className="addlimage" src={westerndesert} alt="squareimage" />
+                <img className="addlimage" src={winerydate} alt="squareimage" />
             </div>
         </div>
     )

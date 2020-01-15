@@ -43,8 +43,10 @@ class App extends Component {
     }
     return (
       <div className="App">
-          <Link to="/"><h1 className="header">321</h1></Link>
-          <p onClick={this.handleNav} className="subtitle">the final countdown</p>
+          <div className="header" onClick={this.handleNav}>
+            <Link to="/"><h1 className="date">3.21</h1></Link>
+            <p className="subtitle">the final countdown</p>
+          </div>
           { nav }
           <main>
             <Route exact path="/events" component={Events} />

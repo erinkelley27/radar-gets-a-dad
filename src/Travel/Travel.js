@@ -18,7 +18,10 @@ const Travel = () => {
                         <p>Harvard Square One Bennett Street</p>
                         <p>Cambridge, MA 02138</p>
                     </a>
-                    <p className="deadline">Reference Kelley-Lawrence wedding block by Februrary 20, 2020</p>
+                    <a className="deadline" href="" target="_blank">
+                        <p className="deadline">Link for Kelley-Lawrence Wedding Block</p>
+                        <p>Deadline: Februrary 20, 2020</p>
+                    </a>
                 </div>
             </div>
             <div className="hotel">

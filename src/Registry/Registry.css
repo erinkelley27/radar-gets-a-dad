@@ -10,6 +10,10 @@
     text-align: center;
 }
 
+h3:hover {
+    color: #889bae;
+}
+
 .zola-image {
     /* border: solid red 2px; */
     display: block;

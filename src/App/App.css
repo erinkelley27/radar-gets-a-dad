@@ -7,7 +7,7 @@ body {
   margin: 10% auto 0 auto;
 }
 
-.header {
+.date {
   /* border: solid pink 2px; */
   margin: 0 auto;
   /* padding: 0; */
@@ -24,7 +24,7 @@ body {
   text-align: center;
 }
 
-.subtitle:hover {
+.header:hover, .date:hover {
   color: #889bae;
 }
 
