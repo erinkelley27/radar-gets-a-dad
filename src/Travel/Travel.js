@@ -32,7 +32,7 @@ const Travel = () => {
                         <p>220 Alewife Brook Parkway</p>
                         <p>Cambridge, MA 02138</p>
                     </a>
-                    <a className="deadline" href="https://secure3.hilton.com/en_US/up/reservation/book.htm?execution=e1s1">
+                    <a className="deadline" href="https://secure3.hilton.com/en_US/up/reservation/book.htm?execution=e1s1" target="_blank">
                         <p className="deadline">Link for Kelley-Lawrence Wedding Block</p>
                         <p>Deadline: Februrary 20, 2020</p>
                     </a>
