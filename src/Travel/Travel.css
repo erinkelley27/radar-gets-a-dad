@@ -26,7 +26,7 @@
     text-align: center;
 }
 
-.hotel-name:hover, .hotel-address:hover {
+.hotel-name:hover, .hotel-address:hover, .deadline:hover {
     color: #889bae;
 }
 
