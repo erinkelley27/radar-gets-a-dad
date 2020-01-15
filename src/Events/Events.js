@@ -12,7 +12,7 @@ const Events = () => {
                 <div className="ceremony-event-info">
                     <a className="location-name" target="_blank" href="https://goo.gl/maps/yz7a3DK36qs7PzwBA">
                         <h2>Ceremony</h2>
-                        <h3>Charles River Esplanade</h3>
+                        <h3>To Be Announced</h3>
                     </a>
                     <h4>Saturday, March 21, 2020</h4>
                     <h4>5:30pm</h4>
