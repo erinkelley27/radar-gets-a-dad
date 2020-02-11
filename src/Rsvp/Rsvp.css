@@ -1,0 +1,75 @@
+.Rsvp {
+    margin: 50px auto 100px auto;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid purple 2px;
+}
+
+.watercolor {
+    width: 50%;
+    border: solid red 2px;
+}
+
+.watercolor-image {
+    width: 100%;
+    border: solid orange 2px;
+}
+
+.rsvp-form {
+    border: solid blue 2px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form {
+    height: 75%;
+}
+
+.inputs {
+    height: 100%;
+    border: solid green 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+label {
+    text-align: center;
+}
+
+select {
+    width: 50px;
+    margin: 0 auto;
+}
+
+.meal-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.name, .response, .guest-count, .meal-option, .diet {
+    display: flex;
+    flex-direction: column;
+    border: solid yellow 2px;
+}
+
+.submit-button {
+    border: solid pink 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.submit {
+    text-align: center;
+    padding: 15px;
+    color: white;
+    background-color: black;
+    border-style: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 18px;
+}

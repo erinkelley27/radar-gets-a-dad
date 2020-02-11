@@ -9,7 +9,7 @@ const Events = () => {
     return (
         <div className="Events">
             <div className="ceremony-location">
-                <img className="ceremony-location-image" src={centanni} alt="esplanade" />
+                <img className="ceremony-location-image" src={centanni} alt="centanni" />
                 <div className="ceremony-event-info">
                     <a className="location-name" target="_blank" href="https://goo.gl/maps/oCWrfP1uCTMUvkso6">
                         <div className="location-bundle">
