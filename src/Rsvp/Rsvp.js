@@ -54,7 +54,6 @@ const Rsvp = () => {
                         <p className="meal-question bold">Please select your meal</p>
                         <div className="meal-options">
                             <div className="fish meal-option">
-                                {/* <FontAwesomeIcon icon={faFish} size="lg" /> */}
                                 <label for="fish">Red Snapper</label>
                                 <select name="fish" id="fish" required="">
                                     <option value="0" selected="">0</option>
@@ -64,7 +63,6 @@ const Rsvp = () => {
                             </div>
 
                             <div className="meat meal-option">
-                                {/* <FontAwesomeIcon icon={faBone} /> */}
                                 <label for="meat">Beef Tenderloin</label>
                                 <select name="meat" id="meat" required="">
                                     <option value="0" selected="">0</option>
@@ -74,7 +72,6 @@ const Rsvp = () => {
                             </div>
 
                             <div className="veggie meal-option">
-                                {/* <FontAwesomeIcon icon={faCarrot} /> */}
                                 <label for="veggie">Barlotti Beans (V)</label>
                                 <select name="veggie" id="veggie" required="">
                                     <option value="0" selected="">0</option>
