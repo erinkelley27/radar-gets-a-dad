@@ -2,8 +2,15 @@ import React from 'react';
 import './Rsvp.css';
 
 import esplanade from "../assets/esplanade-watercolor.png"
+import plus from "../assets/plus.png"
 
 const Rsvp = () => {
+
+    // addGuest = (e) => {
+    //     e.preventDefault()
+    //     console.log('Add guest button working')
+    // }
+
     return (
         <div className="Rsvp">
             <div className="watercolor">
@@ -16,20 +23,24 @@ const Rsvp = () => {
                 <div className="inputs">
 
                     <div className="name">
-                        <label for="full-name">Your Name(s)</label>
-                        <input type="text" name="name" id="full-name" placeholder="First and Last" required="" />
+                        <label className="bold" for="full-name">Please list the names of all guests in your party</label>
+                        <input className="first-input" type="text" name="name" id="name" placeholder="Guest Name" />
+                        <input type="text" name="name" id="name" placeholder="Guest Name" />
+                        <img className="plus-sign" src={plus} alt="plus-sign" />
+                        {/* <input type="text" name="name" id="name" placeholder="Guest 3" />
+                        <input type="text" name="name" id="name" placeholder="Guest 4" /> */}
                     </div>
 
-                    <div className="response">
-                        <label for="rsvp">Can you make it?</label>
+                    {/* <div className="response">
+                        <label className="bold" for="rsvp">Can you make it?</label>
                         <select name="rsvp" id="rsvp" required="">
                             <option value="0" selected="">Yes</option>
                             <option value="1">No</option>
                         </select>
-                    </div>
+                    </div> */}
 
-                    <div className="guest-count">
-                        <label for="guest-count">How many guests in your party will be attending?</label>
+                    {/* <div className="guest-count">
+                        <label className="bold" for="guest-count">How many guests in your party will be attending?</label>
                         <select name="guest-count" id="guest-count" required="">
                             <option value="0" selected="">0</option>
                             <option value="1">1</option>
@@ -37,40 +48,46 @@ const Rsvp = () => {
                             <option value="3">3</option>
                             <option value="4">4</option>
                         </select>
-                    </div>
+                    </div> */}
+                    
+                    <div className="meals-all">
+                        <p className="meal-question bold">Please select your meal</p>
+                        <div className="meal-options">
+                            <div className="fish meal-option">
+                                {/* <FontAwesomeIcon icon={faFish} size="lg" /> */}
+                                <label for="fish">Red Snapper</label>
+                                <select name="fish" id="fish" required="">
+                                    <option value="0" selected="">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select>
+                            </div>
 
-                    <div className="meal-options">
-                        <div className="fish meal-option">
-                            <label for="fish">Fish</label>
-                            <select name="fish" id="fish" required="">
-                                <option value="0" selected="">0</option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                            </select>
-                        </div>
+                            <div className="meat meal-option">
+                                {/* <FontAwesomeIcon icon={faBone} /> */}
+                                <label for="meat">Beef Tenderloin</label>
+                                <select name="meat" id="meat" required="">
+                                    <option value="0" selected="">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select>
+                            </div>
 
-                        <div className="meat meal-option">
-                            <label for="meat">Meat</label>
-                            <select name="meat" id="meat" required="">
-                                <option value="0" selected="">0</option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                            </select>
-                        </div>
-
-                        <div className="veggie meal-option">
-                            <label for="veggie">Vegetarian</label>
-                            <select name="veggie" id="veggie" required="">
-                                <option value="0" selected="">0</option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                            </select>
+                            <div className="veggie meal-option">
+                                {/* <FontAwesomeIcon icon={faCarrot} /> */}
+                                <label for="veggie">Barlotti Beans (V)</label>
+                                <select name="veggie" id="veggie" required="">
+                                    <option value="0" selected="">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select>
+                            </div>
                         </div>
                     </div>
 
                     <div className="diet">
-                        <label for="dietary-restrictions">Any other dietary restrictions?</label>
-                        <textarea rows="3" name="message" id="message" placeholder="" required=""></textarea>
+                        <label className="bold" for="dietary-restrictions">Please let us know of any dietary restrictions so that we may best accommodate you:</label>
+                        <textarea rows="4" name="diet" id="diet"></textarea>
                         <input type="hidden" name="_subject" id="email-subject" value="Survey Responses" />
                     </div>
 
