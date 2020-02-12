@@ -55,7 +55,7 @@ h3 {
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 900px) {
     .ceremony-location {
         width: 70%;
         margin: 50px auto;
