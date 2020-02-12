@@ -6,6 +6,7 @@ import Events from "../Events/Events"
 import Travel from "../Travel/Travel"
 import Photos from "../Photos/Photos"
 import Registry from "../Registry/Registry"
+import Rsvp from "../Rsvp/Rsvp"
 
 class App extends Component {
   constructor () {
@@ -14,15 +15,12 @@ class App extends Component {
       display: false
     }
   }
-  // hideNav = (evt) => {
-  //   evt.preventDefault()
-  //   this.setState({ display: false })
-  // }
 
   handleNav = (evt) => {
     evt.preventDefault()
     this.setState({ display: !this.state.display })
   }
+  
   renderNav = () => {
     if (this.state.display) {
       return (
@@ -31,7 +29,7 @@ class App extends Component {
               <Link to="/travel"><p className="navitem">travel</p></Link>
               <Link to="/photos"><p className="navitem">photos</p></Link>
               <Link to="/registry"><p className="navitem">registry</p></Link>
-              {/* <a target="_blank" href="https://www.zola.com/registry/erinandjustin2020/"><p className="navitem">registry</p></a> */}
+              <Link to="/rsvp"><p className="navitem">rsvp</p></Link>
           </nav>
       )
     }
@@ -53,10 +51,8 @@ class App extends Component {
             <Route exact path="/travel" component={Travel} />
             <Route exact path="/photos" component={Photos} />
             <Route exact path="/registry" component={Registry} />
+            <Route exact path="/rsvp" component={Rsvp} />
           </main>
-          {/* <footer>
-            <p className="hashtag">#radargetsadad</p>
-          </footer> */}
       </div>
     );
   }
