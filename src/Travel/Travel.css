@@ -68,7 +68,7 @@
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 1100px) {
     .hotel {
         /* border: solid blue 2px; */
         width: 80%;
