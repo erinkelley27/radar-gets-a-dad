@@ -20,6 +20,7 @@ class App extends Component {
     evt.preventDefault()
     this.setState({ display: !this.state.display })
   }
+  
   renderNav = () => {
     if (this.state.display) {
       return (
