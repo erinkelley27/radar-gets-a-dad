@@ -75,17 +75,6 @@ class Rsvp extends Component {
                             <option value="No">No</option>
                         </select>
                     </div>
-
-                    {/* <div className="guest-count">
-                        <label className="bold" for="guest-count">How many guests in your party will be attending?</label>
-                        <select name="guest-count" id="guest-count" required="">
-                            <option value="0" selected="">0</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                        </select>
-                    </div> */}
                     
                     <div className="meals-all form-section">
                         <p className="meal-question bold">Please select your meal</p>
