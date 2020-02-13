@@ -60,13 +60,23 @@ class Rsvp extends Component {
                         <input type="text" name="name" id="name" placeholder="Guest 4" /> */}
                     </div>
 
-                    {/* <div className="response">
-                        <label className="bold" for="rsvp">Can you make it?</label>
-                        <select name="rsvp" id="rsvp" required="">
-                            <option value="0" selected="">Yes</option>
-                            <option value="1">No</option>
+                    <div className="response">
+                        <label className="bold" for="rsvp">Will you be attending the Welcome Party?</label>
+                        <select className="select-rsvp" name="rsvp" id="rsvp" required="">
+                            <option value="0" selected="">Select One</option>
+                            <option value="1">Yes</option>
+                            <option value="2">No</option>
                         </select>
-                    </div> */}
+                    </div>
+
+                    <div className="response">
+                        <label className="bold" for="rsvp">Will you be attending the Reception at Pammy's?</label>
+                        <select className="select-rsvp" name="rsvp" id="rsvp" required="">
+                            <option value="0" selected="">Select One</option>
+                            <option value="1">Yes</option>
+                            <option value="2">No</option>
+                        </select>
+                    </div>
 
                     {/* <div className="guest-count">
                         <label className="bold" for="guest-count">How many guests in your party will be attending?</label>
@@ -88,6 +98,7 @@ class Rsvp extends Component {
                                     <option value="0" selected="">0</option>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
+                                    <option value="3">3</option>
                                 </select>
                             </div>
 
@@ -97,6 +108,7 @@ class Rsvp extends Component {
                                     <option value="0" selected="">0</option>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
+                                    <option value="3">3</option>
                                 </select>
                             </div>
 
@@ -106,6 +118,7 @@ class Rsvp extends Component {
                                     <option value="0" selected="">0</option>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
+                                    <option value="3">3</option>
                                 </select>
                             </div>
                         </div>
