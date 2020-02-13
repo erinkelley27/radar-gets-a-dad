@@ -2,7 +2,6 @@ import React from 'react';
 import './Events.css';
 
 import centanni from "../assets/centanni.png"
-import esplanade from "../assets/esplanade-watercolor.png"
 import pammys from "../assets/pammys.jpg"
 
 const Events = () => {

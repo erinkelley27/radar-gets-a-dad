@@ -1,10 +1,8 @@
 .Registry {
-    /* border: solid black 2px; */
     margin: 50px auto 100px auto;
 }
 
 .registry {
-    /* border: solid blue 2px; */
     width: 70%;
     margin: 50px auto;
     text-align: center;
@@ -15,7 +13,6 @@ h3:hover {
 }
 
 .zola-image {
-    /* border: solid red 2px; */
     display: block;
     margin: 0 auto;
     width: 50%;
