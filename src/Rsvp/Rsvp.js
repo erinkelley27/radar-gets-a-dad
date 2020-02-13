@@ -49,18 +49,16 @@ class Rsvp extends Component {
                 
                 <div className="inputs">
 
-                    <div className="name">
+                    <div className="name form-section">
                         <label className="guest-names bold" for="full-name">Please list the names of all guests in your party</label>
                         <input className="first-input" type="text" name="name" id="name" placeholder="Guest Name" />
                         <input type="text" name="name" id="name" placeholder="Guest Name" />
                         { guestInput3 }
                         { guestInput4 }
                         <img onClick={this.handlePlus} className="plus-sign" src={plus} alt="plus-sign" />
-                        {/* <input type="text" name="name" id="name" placeholder="Guest 3" />
-                        <input type="text" name="name" id="name" placeholder="Guest 4" /> */}
                     </div>
 
-                    <div className="response">
+                    <div className="response form-section">
                         <label className="bold" for="rsvp">Will you be attending the Welcome Party?</label>
                         <select className="select-rsvp" name="rsvp" id="rsvp" required="">
                             <option value="0" selected="">Select One</option>
@@ -69,7 +67,7 @@ class Rsvp extends Component {
                         </select>
                     </div>
 
-                    <div className="response">
+                    <div className="response form-section">
                         <label className="bold" for="rsvp">Will you be attending the Reception at Pammy's?</label>
                         <select className="select-rsvp" name="rsvp" id="rsvp" required="">
                             <option value="0" selected="">Select One</option>
@@ -89,7 +87,7 @@ class Rsvp extends Component {
                         </select>
                     </div> */}
                     
-                    <div className="meals-all">
+                    <div className="meals-all form-section">
                         <p className="meal-question bold">Please select your meal</p>
                         <div className="meal-options">
                             <div className="fish meal-option">
@@ -124,13 +122,13 @@ class Rsvp extends Component {
                         </div>
                     </div>
 
-                    <div className="diet">
+                    <div className="diet form-section">
                         <label className="bold" for="dietary-restrictions">Please let us know of any dietary restrictions so that we may best accommodate you</label>
                         <textarea rows="4" name="diet" id="diet"></textarea>
                         <input type="hidden" name="_subject" id="email-subject" value="Survey Responses" />
                     </div>
 
-                    <div className="submit-button">
+                    <div className="submit-button form-section">
                         <input className="submit" type="submit" value="Submit" />
                     </div>
                 </div>

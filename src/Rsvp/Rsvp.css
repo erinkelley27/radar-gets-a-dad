@@ -25,12 +25,17 @@
     justify-content: center;
 }
 
-form {
-    height: 75%;
-}
+/* form {
+    height: 100%;
+} */
 
 .bold {
     font-weight: bold;
+}
+
+.form-section {
+    /* border: solid yellow 2px; */
+    margin: 0 0;
 }
 
 .inputs {
@@ -112,7 +117,7 @@ select:focus {
 
 .select-rsvp {
     /* border: solid purple 2px; */
-    width: 110px;
+    width: 115px;
     /* height: 65px; */
 }
 
