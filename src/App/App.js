@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, Link } from "react-router-dom";
+import { Route, Link, Switch } from "react-router-dom";
 import './App.css';
 
 import Events from "../Events/Events"
@@ -47,11 +47,13 @@ class App extends Component {
           </div>
           { nav }
           <main>
-            <Route exact path="/events" component={Events} />
-            <Route exact path="/travel" component={Travel} />
-            <Route exact path="/photos" component={Photos} />
-            <Route exact path="/registry" component={Registry} />
-            <Route exact path="/rsvp" component={Rsvp} />
+            <Switch>
+              <Route exact path="/events" component={Events} />
+              <Route exact path="/travel" component={Travel} />
+              <Route exact path="/photos" component={Photos} />
+              <Route exact path="/registry" component={Registry} />
+              <Route exact path="/rsvp" component={Rsvp} />
+            </Switch>
           </main>
       </div>
     );
