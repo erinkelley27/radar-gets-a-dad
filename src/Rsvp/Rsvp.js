@@ -59,20 +59,20 @@ class Rsvp extends Component {
                     </div>
 
                     <div className="response form-section">
-                        <label className="bold" for="rsvp">Will you be attending the Welcome Party?</label>
+                        <label className="bold" for="welcome-rsvp">Will you be attending the Welcome Party?</label>
                         <select className="select-rsvp" name="rsvp" id="rsvp" required="">
                             <option value="0" selected="">Select One</option>
-                            <option value="1">Yes</option>
-                            <option value="2">No</option>
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
                         </select>
                     </div>
 
                     <div className="response form-section">
-                        <label className="bold" for="rsvp">Will you be attending the Reception at Pammy's?</label>
+                        <label className="bold" for="reception-rsvp">Will you be attending the Reception at Pammy's?</label>
                         <select className="select-rsvp" name="rsvp" id="rsvp" required="">
                             <option value="0" selected="">Select One</option>
-                            <option value="1">Yes</option>
-                            <option value="2">No</option>
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
                         </select>
                     </div>
 
