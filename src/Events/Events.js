@@ -4,6 +4,7 @@ import './Events.css';
 import centanni from "../assets/centanni.png"
 import pammys from "../assets/pammys.jpg"
 import martini from "../assets/martini.jpg"
+import carrieNation from "../assets/carrie-nation.png"
 
 const Events = () => {
     return (
@@ -45,15 +46,18 @@ const Events = () => {
             </div>
 
             <div className="event ceremony-location">
-                <img className="ceremony-location-image" src={martini} alt="martini" />
-                <div className="ceremony-event-info">
-                    {/* <a className="location-name" target="_blank" href="https://goo.gl/maps/oCWrfP1uCTMUvkso6"> */}
-                        <div className="location-bundle">
+                <img className="welcome-location-image" src={carrieNation} alt="martini" />
+                <div className="welcome-event-info">
+                    <div className="location-bundle">
+                        <a className="location-name" target="_blank" href="http://www.carrienationcocktailclub.com/">
                             <h2>Welcome Party</h2>
-                            <h3>Location TBA</h3>
-                            <p>Boston, MA</p>
-                        </div>
-                    {/* </a> */}
+                            <h3>Carrie Nation Cocktail Club</h3>
+                        </a>
+                        <a className="location-address" target="_blank" href="https://goo.gl/maps/EAWTXFbS2EsL5rdc8">
+                            <p>11 Beacon Street</p>
+                            <p>Boston, MA 02108</p>
+                        </a>
+                    </div>
                     <div className="date-time-bundle">
                         <h4>Friday, March 20, 2020</h4>
                         <h4>6:00pm - 9:00pm</h4>
