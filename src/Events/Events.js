@@ -51,12 +51,12 @@ const Events = () => {
                         <div className="location-bundle">
                             <h2>Welcome Party</h2>
                             <h3>Location TBA</h3>
-                            <p>Cambridge, MA</p>
+                            <p>Boston, MA</p>
                         </div>
                     {/* </a> */}
                     <div className="date-time-bundle">
                         <h4>Friday, March 20, 2020</h4>
-                        <h4>6:00pm - 8:00pm</h4>
+                        <h4>6:00pm - 9:00pm</h4>
                     </div>
                 </div>
             </div>
