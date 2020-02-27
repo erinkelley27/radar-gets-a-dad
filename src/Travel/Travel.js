@@ -20,7 +20,7 @@ const Travel = () => {
                     </a>
                     <a className="deadline" href="https://be.synxis.com/?adult=1&arrive=2020-03-20&chain=10237&child=0&configcode=BOSCH&currency=USD&depart=2020-03-22&group=KLWEDDING20&hotel=27199&level=hotel&locale=en-US&rooms=1&themecode=BOSCH&trifecta=1" target="_blank">
                         <p className="deadline">Link for Kelley-Lawrence Wedding Block</p>
-                        <p>Deadline: Februrary 25, 2020</p>
+                        <p>Deadline: March 2, 2020</p>
                     </a>
                 </div>
             </div>
