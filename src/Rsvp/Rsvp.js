@@ -100,7 +100,7 @@ class Rsvp extends Component {
                             </div>
 
                             <div className="veggie meal-option">
-                                <label for="veggie">Barlotti Beans (V)</label>
+                                <label for="veggie">Borlotti Beans (V)</label>
                                 <select name="veggie" id="veggie" required="">
                                     <option value="0" selected="">0</option>
                                     <option value="1">1</option>
