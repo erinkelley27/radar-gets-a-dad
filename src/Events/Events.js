@@ -24,6 +24,7 @@ const Events = () => {
                         <h4>Saturday, March 21, 2020</h4>
                         <h4>5:30pm</h4>
                     </div>
+                    <p className="trolley">Trolleys will depart The Charles Hotel promptly at 5:00pm to transport guests to the ceremony, and the reception immediately following.</p>
                 </div>
             </div>
 

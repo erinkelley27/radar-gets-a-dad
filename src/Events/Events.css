@@ -61,6 +61,13 @@ h3 {
     margin: 15px 1px 1px 1px;
 }
 
+.trolley {
+    padding: 20px;
+    font-size: 12px;
+    font-style: italic;
+    margin: 10px;
+}
+
 @media screen and (min-width: 1025px) {
     .Events {
         margin: 100px auto 100px auto;
